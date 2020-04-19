@@ -21,6 +21,6 @@ public class AnnouncementSubCategory {
     @Column
     private String name;
 
-    @OneToMany
-    private List<Announcement> announcements;
+    @ManyToOne
+    private AnnouncementCategory announcementCategory;
 }

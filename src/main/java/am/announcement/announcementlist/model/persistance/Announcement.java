@@ -28,4 +28,7 @@ public class Announcement {
 
     @Column
     private Date postedDate;
+
+    @ManyToOne
+    private AnnouncementSubCategory announcementSubCategory;
 }

@@ -19,7 +19,4 @@ public class AnnouncementCategory {
 
     @Column
     private String name;
-
-    @OneToMany
-    private List<AnnouncementSubCategory> announcementSubCategories;
 }
